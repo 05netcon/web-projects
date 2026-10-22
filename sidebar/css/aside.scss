@@ -1,0 +1,60 @@
+$light-grey: hsl(0, 0%, 96%);
+$dark-grey: hsl(0, 0%, 21%);
+$grey: hsl(0, 0%, 48%);
+$link: hsl(217, 71%, 53%);
+aside {
+    -ms-overflow-style: none;
+    background-color: $light-grey;
+    bottom: 0;
+    font-family: 'Ubuntu';
+    left: 0;
+    overflow-y: scroll;
+    padding: 15px;
+    position: fixed;
+    scrollbar-width: none;
+    top: 0;
+    width: 220px;
+    &::-webkit-scrollbar {
+        height: 0;
+        width: 0;
+    };
+    .logo {
+        margin-bottom: 30px;
+        text-align: center;
+        h2 {
+            color: $link;
+            margin: 0;
+        };
+    };
+    .aside-list {
+        margin-bottom: 15px;
+        .aside-list-block {
+            color: $dark-grey;
+            margin-top: 15px;
+            cursor: pointer;
+            .left {
+                margin-right: 5px;
+            };
+            .right {
+                float: right;
+                margin-top: 1px;
+            };
+            .aside-list-subblock {
+                &.hidden {
+                    display: none;
+                };
+                a {
+                    color: $grey;
+                    display: block;
+                    font-size: 90%;
+                    margin-left: 24px;
+                    padding-top: 10px;
+                    text-decoration: none;
+                    &:hover, &.active {
+                        color: $link;
+                    };
+                };
+            };
+        };
+    };
+};

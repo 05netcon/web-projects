@@ -1,0 +1,64 @@
+aside {
+    -ms-overflow-style: none;
+    background-color: whitesmoke;
+    bottom: 0;
+    font-family: 'Ubuntu';
+    left: 0;
+    overflow-y: scroll;
+    padding: 15px;
+    position: fixed;
+    scrollbar-width: none;
+    top: 0;
+    width: 220px;
+}
+
+aside::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+aside .logo {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+aside .logo h2 {
+    color: #3273dc;
+    margin: 0;
+}
+
+aside .aside-list {
+    margin-bottom: 15px;
+}
+
+aside .aside-list .aside-list-block {
+    color: #363636;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+aside .aside-list .aside-list-block .left {
+    margin-right: 5px;
+}
+
+aside .aside-list .aside-list-block .right {
+    float: right;
+    margin-top: 1px;
+}
+
+aside .aside-list-subblock {
+    display: none;
+}
+
+aside .aside-list .aside-list-block .aside-list-subblock a {
+    color: #7a7a7a;
+    display: block;
+    font-size: 90%;
+    margin-left: 24px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+aside .aside-list .aside-list-block .aside-list-subblock a:hover, aside .aside-list .aside-list-block .aside-list-subblock a.active {
+    color: #3273dc;
+}

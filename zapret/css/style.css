@@ -1,0 +1,25 @@
+body {
+  padding-bottom: 50px;
+}
+
+h2 {
+  color: #C73E2D;
+}
+
+img {
+  padding-top: 50px;
+}
+
+.row.name {
+  background-color: #C73E2D;
+  padding: 0 0 10px 5px;
+}
+
+.row.name h3 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.row.block {
+  padding-top: 50px;
+}

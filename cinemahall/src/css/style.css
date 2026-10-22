@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#container {
+    overflow: hidden;
+    padding: 5px;
+}
+
+button {
+    background-color: white;
+    background-image: url('../images/armchair-red.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
